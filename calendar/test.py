@@ -1,5 +1,5 @@
-from calendar_app import Calendar
 from event import Event
+from calendar_app import Calendar
 
 from datetime import datetime
 from tabulate import tabulate

@@ -1,9 +1,9 @@
-import sys
-from datetime import datetime, date, time
-from calendar_app import Calendar
 from event import Event
-# Optionally, import tabulate if you choose to use it for formatting outputs
-# from tabulate import tabulate
+from calendar_app import Calendar
+
+import sys
+from datetime import datetime
+from tabulate import tabulate
 
 def parse_date(date_str):
     """
